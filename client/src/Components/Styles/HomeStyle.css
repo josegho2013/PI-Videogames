@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@100;600&display=swap");
+
+.home {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  background-image: url("../../image/home_3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+.cards {
+  display: grid;
+  grid: auto-flow dense / 1fr 1fr 1fr;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.loading2 {
+  display: flex;
+  width: 100%;
+  min-height: 35vw;
+  justify-content: center;
+  background-image: url("../../image/loading3.jpg");
+  opacity: 0.7;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+}
+.loading {
+  display: flex;
+  width: 50%;
+  margin: 15px 130px;
+  justify-content: center;
+  background-image: url("../../image/loading2.gif");
+  background-repeat: no-repeat;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  font-size: xx-large;
+  z-index: 9;
+}
+.loading h1 {
+  font-family: "Urbanist";
+  font-variant: small-caps;
+  color: white;
+}
+.nohome {
+  display: none;
+}

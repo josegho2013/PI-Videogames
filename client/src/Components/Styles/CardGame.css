@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@100;600&display=swap");
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 330px;
+  margin-left: 30px;
+  margin-top: 20px;
+  padding: 5px;
+  border: 3px solid transparent;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  font-family: "Urbanist";
+  font-variant: small-caps;
+  cursor: pointer;
+}
+.container:hover {
+  transform: scale(1.07);
+  background-color: white;
+  color: black;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+img {
+  width: 100%;
+  min-height: 75%;
+  object-fit: cover;
+}
+span {
+  position: absolute;
+  margin-left: 200px;
+  margin-top: 10px;
+  width: 50px;
+  /* background-color: white;
+  color: black; */
+  background-color: black;
+  color: white;
+  font-weight: bolder;
+  padding: inherit;
+}
+
+.dataRating {
+  margin-top: 5px;
+  text-align: end;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+.dataRating span {
+  margin-top: 5px;
+  text-align: end;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.genres {
+  text-align: end;
+}
+.genres li {
+  display: inline-block;
+  margin-left: 5px;
+  font-weight: bolder;
+}
+.genres li:not(:last-child):after {
+  content: ",";
+}
+
+.genres Link {
+  width: 60px;
+  margin: 5px 0;
+}
+.container h2{
+  padding: 80px 0;
+}
