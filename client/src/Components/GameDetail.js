@@ -68,7 +68,7 @@ export default function GameDetail({ id }) {
       )}
       <div className="back">
         <Link to="/Home">
-          <button>Go Home</button>
+          <button>Go Home!</button>
         </Link>
       </div>
     </div>
