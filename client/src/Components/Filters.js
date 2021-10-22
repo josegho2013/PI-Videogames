@@ -2,6 +2,7 @@ import { React, useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { filterByGenre, getGenres } from "../Redux/actions/genre";
 import { filterByPlatform } from "../Redux/actions/platforms";
+import "./Styles/FiltersStyle.css"
 
 function Filters() {
   const handleFilterGenre = (e) => {
@@ -28,9 +29,9 @@ function Filters() {
   
 
   return (
-    <div>
-      <div>Filter by Genre</div>
-      <select onChange={(e) => handleFilterGenre(e)}>
+    <div className =" filter">
+      <h3>Genre</h3>
+      <select  className="sele"onChange={(e) => handleFilterGenre(e)}>
         <option default>All</option>
         {filters.genre.map((G) => (
           <option key={G.id} value={G.name}>
@@ -38,7 +39,8 @@ function Filters() {
           </option>
         ))}
       </select>
-      <select onChange={(e) => handleFilterPlatform(e)}>
+      <h3>Platfom</h3>
+      <select className=" sele" onChange={(e) => handleFilterPlatform(e)}>
         <option default>All</option>
         {filterPlat.map((p) => (
           <option key={p.id} value={p.name}>

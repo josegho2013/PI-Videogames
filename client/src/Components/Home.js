@@ -33,8 +33,8 @@ export default function Home() {
         <h1 className={videogames ? "nohome" : ""}>
           {videogames ? "" : "Loading..."}
         </h1>
-        <div className={videogames ? "home" : "nohome"}>
           <Filters />
+        <div className={videogames ? "home" : "nohome"}>
           <div className="pages">
             <div className="cards">
               {gamesPage ? (
