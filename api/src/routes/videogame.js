@@ -5,7 +5,7 @@ const {
   searchByName,
   getGameById,
   createGame,
-} = require("../controllers/videogame");
+} = require("../controller/videogame");
 
 router.get("/", getAllVideogames);
 router.get("/search", searchByName);

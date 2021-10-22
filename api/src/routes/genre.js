@@ -1,6 +1,6 @@
 const { Router } = require("express");
 const router = Router();
-const { getGenre } = require("../controllers/genre");
+const { getGenre } = require("../controller/genre");
 
 router.get("/", getGenre);
 

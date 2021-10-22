@@ -9,7 +9,7 @@ async function getAllVideogames(req, res, next) {
     const apiUrl = await axios.get(
       `https://api.rawg.io/api/games?page_size=100&key=${API_KEY}`
     );
-    let apiInfo = await apiUrl?.data.results.map((el) => {
+    let apiInfo = await apiUrl.data.results.map((el) => {
       return {
         id: el.id,
         name: el.name,
@@ -65,7 +65,7 @@ async function searchByName(req, res, next) {
     const apiUrl = await axios.get(
       `https://api.rawg.io/api/games?page_size=100&key=${API_KEY}&search=${search}`
     );
-    let apiInfo = await apiUrl?.data.results.map((item) => {
+    let apiInfo = await apiUrl.data.results.map((item) => {
       return {
         id: item.id,
         name: item.name,
@@ -74,7 +74,7 @@ async function searchByName(req, res, next) {
         rating: item.rating,
         description: item.description,
         genres: item.genres,
-        platforms: item.platforms?.map((e) => {
+        platforms: item.platforms.map((e) => {
           return e.platform;
         }),
       };
