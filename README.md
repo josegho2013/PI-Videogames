@@ -1,13 +1,36 @@
-<p align='left'>
-    <img src='LANDING' </img>
+
+#  Individual Project - Henry Videogames
+<p align="center">
+  <img height="100" src="client/src/image/joystick.png"  />
 </p>
 
-# Individual Project - Henry Videogames
-
-<p align="right">
-  <img height="200" src="./videogame.png" />
+<p align="center">
+  <img height="500" src="client/src/image/LANDING.jpeg"  />
 </p>
 
+<p align="center">
+  <img height="100" src="client/src/image/videogames.png"  />
+</p>
+
+<p align="center">
+  <img height="400" src="client/src/image/FILTRO.jpeg"  />
+</p>
+
+<p align="center">
+  <img height="100" src="client/src/image/videogames.png"  />
+</p>
+
+<p align="center">
+  <img height="400" src="client/src/image/DETALLE.jpeg"  />
+</p>
+
+<p align="center">
+  <img height="400" src="client/src/image/PAGINATION.jpeg"  />
+</p>
+
+<p align="center">
+  <img height="400" src="client/src/image/LOADING.jpeg"  />
+</p>
 ## Objetivos del Proyecto
 
 - Construir una App utlizando React, Redux, Node y Sequelize.
