@@ -1,5 +1,6 @@
 
-#  Individual Project - Henry Videogames
+#          Individual Project - Henry Videogames
+
 <p align="center">
   <img height="100" src="client/src/image/joystick.png"  />
 </p>
@@ -8,25 +9,41 @@
   <img height="500" src="client/src/image/LANDING.jpeg"  />
 </p>
 
+
 <p align="center">
-  <img height="100" src="client/src/image/videogames.png"  />
+  <img height="100" src="client/src/image/control.png"  />
 </p>
+
 
 <p align="center">
   <img height="400" src="client/src/image/FILTRO.jpeg"  />
 </p>
 
+
 <p align="center">
-  <img height="100" src="client/src/image/videogames.png"  />
+  <img height="100" src="client/src/image/soldier.gif"  />
 </p>
+
 
 <p align="center">
   <img height="400" src="client/src/image/DETALLE.jpeg"  />
 </p>
 
+
+<p align="center">
+  <img height="100" src="client/src/image/mushroom.png"  />
+</p>
+
+
 <p align="center">
   <img height="400" src="client/src/image/PAGINATION.jpeg"  />
 </p>
+
+
+<p align="center">
+  <img height="102" src="client/src/image/consola-de-video.png"  />
+</p>
+
 
 <p align="center">
   <img height="400" src="client/src/image/LOADING.jpeg"  />
