@@ -3,14 +3,10 @@ import { useSelector, useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
 
 function CreateGame() {
-
-
-
-  
   return (
     <div>
       <div>
-        <div >
+        <div>
           <h2>Create your New Game</h2>
           <form>
             <div>
@@ -19,7 +15,6 @@ function CreateGame() {
               </div>
               <div>
                 <input required />
-
                 <input required />
               </div>
               <div>
@@ -28,17 +23,12 @@ function CreateGame() {
               </div>
               <div className="general">
                 <input required />
-
                 <input required />
               </div>
 
               <div>
-                <select>
-                 
-                </select>
-                <div>
-               
-                </div>
+                <select></select>
+                <div></div>
               </div>
             </div>
 
@@ -51,15 +41,11 @@ function CreateGame() {
           </form>
         </div>
 
-        <p>Your dog was created successfully!</p>
+        <p>Your game was created successfully!</p>
         <Link to="/home">
           <button>Go Home</button>
         </Link>
       </div>
-
-     
-
-     
     </div>
   );
 }
