@@ -166,31 +166,11 @@ async function getGameById(req, res, next) {
   }
 }
 
-function createGame(req, res) {
-  const { name, description, released, imgUrl, rating, platforms, genres } =
-    req.body;
 
-  Videogame.findOrCreate({
-    where: {
-      id: uuidv4(),
-      name: name,
-      description: description,
-      released: released,
-      background_image: imgUrl,
-      rating: rating,
-    },
-  })
-    .then((newGame) => {
-     return res.status(200).json(newGame);
-    })
-    .catch((error) => {
-      return res.status(404).send(error);
-    });
-}
 
 module.exports = {
   getAllVideogames,
   searchByName,
   getGameById,
-  createGame,
+ 
 };

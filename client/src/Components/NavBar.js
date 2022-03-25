@@ -31,9 +31,7 @@ function NavBar() {
         <Link to="/Home">
           <button>Home</button>
         </Link>
-        <Link to="/form">
-          <button>New Game</button>
-        </Link>
+       
       </div>
 
       <form className="search" onSubmit={(e) => handleSearch(e)}>

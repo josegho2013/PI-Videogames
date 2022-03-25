@@ -4,7 +4,7 @@ import Navbar from "./Components/NavBar";
 import Home from "./Components/Home";
 import Card from "./Components/Card";
 import GameDetail from "./Components/GameDetail";
-import CreateGame from "./Components/CreateGame";
+
 import Footer from "./Components/Footer";
 
 import "./App.css";
@@ -18,7 +18,7 @@ function App() {
 
       <Switch>
         <Route exact path="/card" component={Card} />
-        <Route exact path="/NavBar" component={CreateGame} />
+       
         <Route
           exact
           path="/gameDetail/:id"
