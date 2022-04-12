@@ -2,7 +2,6 @@ import { React, useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { getVideogames } from "../Redux/actions/videogame";
 import Pagination from "./Pagination";
-import Filters from "./Filters";
 import Card from "./Card";
 import "./Styles/HomeStyle.css";
 
@@ -23,17 +22,14 @@ export default function Home() {
 
   useEffect(() => {
     dispatch(getVideogames());
-    
   }, []);
 
   return (
-
     <div className={videogames ? "" : "loading2"}>
       <div className={videogames ? "" : "home loading "}>
         <h1 className={videogames ? "nohome" : ""}>
           {videogames ? "" : "Loading..."}
         </h1>
-          <Filters/>
         <div className={videogames ? "home" : "nohome"}>
           <div className="pages">
             <div className="cards">

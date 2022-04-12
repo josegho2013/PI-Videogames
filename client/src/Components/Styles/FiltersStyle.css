@@ -1,16 +1,40 @@
-.filter{
-    display: flex;
-    justify-content: space-evenly;
-    background-color: black;
-}
-h3{
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@100;600&display=swap");
 
-   
-    color:white
+.filter {
+  display: flex;
+  text-align: center;
+  justify-content: right;
+  font-family: "Urbanist";
+  background-color: black;
+  margin-top: -31px;
 }
-.sele{
-    height: 22px;
-    margin-top: 22px;
-    margin-left: -280px;
-    border-radius: 5px;
+
+.filter div {
+  display: block;
+  margin-left: 15px;
 }
+.filter p {
+  margin-bottom: 3px;
+  font-weight: bolder;
+  text-align: initial;
+  color: white;
+}
+.filter select {
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+  font-variant: small-caps;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* h3 {
+  color: white;
+}
+.sele {
+  height: 22px;
+  margin-top: 22px;
+  margin-left: -280px;
+  border-radius: 5px;
+} */

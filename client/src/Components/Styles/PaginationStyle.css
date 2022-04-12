@@ -21,7 +21,7 @@
   font-family: "Urbanist";
   font-weight: bold;
   font-size: large;
-  box-shadow: 1px 1px 20px 10px rgba(0, 0, 255, 0.2);
+  box-shadow: 1px 1px 20px 10px rgb(231 231 231 / 39%);
 }
 
 .page_container  ul :hover {

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Urbanist:wght@100;600&display=swap");
 
 .detail_container {
   display: block;
@@ -13,13 +13,12 @@
 .detail_game {
   display: block;
 }
-.detail_game h2{
+.detail_game h2 {
   font-family: "Urbanist";
   font-variant: small-caps;
   font-size: 40px;
-
 }
-.detail_game p{
+.detail_game p {
   margin: 10px 0;
 }
 .detail_game li {
@@ -42,4 +41,21 @@
   font-size: 1rem;
   border-radius: 0.25rem;
   margin: 20px 0;
+}
+.loadingDetail {
+  display: flex;
+  width: 100%;
+  min-height: 35vw;
+  justify-content: center;
+  background-image: url("../../image/home5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.loadingDetail h1 {
+  font-family: "Urbanist";
+  font-variant: small-caps;
+  color: white;
+  font-size: -webkit-xxx-large;
+  padding-top: 10%;
+  padding-left: 60%;
 }

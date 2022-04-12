@@ -12,20 +12,19 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <Route path="/" component={Navbar} />
       <Route exact path="/" component={Landing} />
+      <Route path="/Home" component={Navbar} />
       <Route exact path="/Home" component={Home} />
 
       <Switch>
         <Route exact path="/card" component={Card} />
-       
         <Route
           exact
           path="/gameDetail/:id"
           render={({ match }) => <GameDetail id={match.params.id} />}
         />
       </Switch>
-      <Route path="/" component={Footer} />
+      <Route path="/Home" component={Footer} />
     </div>
   );
 }

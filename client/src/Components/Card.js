@@ -7,9 +7,9 @@ const Card = ({ id, name, background_image, genres, rating }) => {
   return (
     <Link to={`gameDetail/${id}`}>
       <div className="container">
-        <span>
+        <span style={{display: "flex"}}>
           <AiOutlineStar />
-          {rating}
+          <p style={{margin: "0px"}}>{rating}</p>
         </span>
         {background_image ? (
           <img src={background_image} alt={id} />
