@@ -26,7 +26,7 @@ export default function GameDetail({ id }) {
     <>
       <NavBar />
       <div className="detail_container">
-        {searchById?.id && searchById?.id == id ? (
+        {searchById?.id && searchById?.id === id ? (
           <div className="detail_card">
             {images[0]?.short_screenshots ? (
               <Slider autoplay={1500}>
@@ -67,7 +67,7 @@ export default function GameDetail({ id }) {
         ) : (
           <div className="loadingDetail"><h1>Loading...</h1></div>
         )}
-        {searchById?.id && searchById?.id == id  && <div className="back">
+        {searchById?.id && searchById?.id === id  && <div className="back">
           <Link to="/Home">
             <button>Go Home!</button>
           </Link>

@@ -1,0 +1,19 @@
+{
+  "name": "react-videogames",
+  "version": "1.0.0",
+  "description": "<p>\r   <img height=\"50\" src=\"client/src/image/joystick.png\"  />\r </p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josegho2013/React-Videogames.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josegho2013/React-Videogames/issues"
+  },
+  "homepage": "https://github.com/josegho2013/React-Videogames#readme"
+}
