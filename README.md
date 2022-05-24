@@ -50,19 +50,6 @@ __IMPORTANTE__: Para poder utilizar esta API externa fue necesario crearse una c
 
 El boilerplate cuenta con dos carpetas: `api` y `client`. En estas carpetas estará el código del back-end y el front-end respectivamente.
 
-En `api` se creó un archivo llamado: `.env` que contine la siguiente forma:
-
-```
-DB_USER=usuariodepostgres
-DB_PASSWORD=passwordDePostgres
-DB_HOST=localhost
-DB_NAME=videogames
-API_KEY=7067a80b26d94945a20876a9ddb5c8be
-NODE_TLS_REJECT_UNAUTHORIZED=0
-```
-
-Reemplazar `usuariodepostgres` y `passwordDePostgres` con tus propias credenciales para conectarte a postgres. Este archivo va ser ignorado en la subida a github, ya que contiene información sensible (las credenciales).
-
 Adicionalmente será necesario que crear desde psql una base de datos llamada `videogames`
 
 El contenido de `client` fue creado usando: Create React App.
