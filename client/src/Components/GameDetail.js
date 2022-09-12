@@ -3,8 +3,8 @@ import { getGameById } from "../Redux/actions/videogame";
 import { useSelector, useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
 import "./Styles/GameDetailStyle.css";
-import "react-animated-slider/build/horizontal.css";
-import Slider from "react-animated-slider";
+// import "react-animated-slider/build/horizontal.css";
+// import Slider from "react-animated-slider";
 import NavBar from "./NavBar";
 import Footer from "./Footer";
 
@@ -29,11 +29,12 @@ export default function GameDetail({ id }) {
         {searchById?.id && searchById?.id === id ? (
           <div className="detail_card">
             {images[0]?.short_screenshots ? (
-              <Slider autoplay={1500}>
-                {images[0]?.short_screenshots.map((el) => (
-                  <img key={el.id} src={el.image} alt={el.description} />
-                ))}
-              </Slider>
+              <p>hola</p>
+              // <Slider autoplay={1500}>
+              //   {images[0]?.short_screenshots.map((el) => (
+              //     <img key={el.id} src={el.image} alt={el.description} />
+              //   ))}
+              // </Slider>
             ) : searchById.background_image ? (
               <img src={searchById.background_image} alt={searchById.id} />
             ) : (
