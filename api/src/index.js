@@ -34,4 +34,7 @@ server.use((err, req, res, next) => { // eslint-disable-line no-unused-vars
   res.status(status).send(message);
 });
 
+const port = process.env.PORT || 1337
+server.listen( port , console.log(`Server listening at port ${port}`));
+
 module.exports = server;
